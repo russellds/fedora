@@ -15,5 +15,5 @@ if [[ $PACKER_BUILDER_TYPE =~ virtualbox ]]; then
     rm -f $SSH_USER_HOME/.vbox_version
 
     echo "==> Removing packages needed for building guest tools"
-    #dnf -y remove gcc cpp kernel-devel kernel-headers perl
+    dnf -y remove gcc cpp kernel-devel kernel-headers perl
 fi

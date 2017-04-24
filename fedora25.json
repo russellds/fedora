@@ -9,5 +9,6 @@
   "iso_url": "http://mirror.sfo12.us.leaseweb.net/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-dvd-x86_64-25-1.3.iso",
   "kickstart": "ks-fedora25.cfg",
   "memory": "2048",
-  "update": "false"
+  "update": "true",
+  "vagrantfile_template": "vagrantfile/vagrantfile.rb"
 }
